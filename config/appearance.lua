@@ -2,6 +2,7 @@ local wezterm = require("wezterm")
 
 return {
 	font = wezterm.font("Hack Nerd Font Mono", { weight = "Bold" }),
+  font_size = 12.0,
 	window_background_opacity = 0.8,
 	colors = {
 		foreground = "#839496",
